@@ -1,0 +1,18 @@
+body {
+  background: url(../assets/images/balls.gif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 250px;
+}
+
+.size {
+  font-size: 100px;
+}
