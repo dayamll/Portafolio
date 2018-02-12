@@ -9,13 +9,36 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.8;
   filter: alpha(opacity=50);
 }
 
 a {
   margin: 30px 20px 0px 30px;
   font-size: 17px;
+}
+
+.font {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.font2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.squard {
+  background-color: rgb(255, 255, 255);
+  width: 700px;
+  height: 400px;
+  margin: 100px;
+  margin-left: 350px;
+  border: 20px solid rgba(0, 0, 0, 0.548);
+}
+
+.title-space {
+  padding-top: 70px;
 }
 
 .space-top {
@@ -36,17 +59,35 @@ a {
   margin-right: -35px;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  font-weight: 600;
+}
+
 .row {
   margin-right: 0;
 }
 
+.first-secction {
+  height: 80vh;
+  width: 100%;
+}
+
 .third-secction {
-  background-image: url(../assets/images/fondo.gif);
-  background-position: center;
   height: 70vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  width: 100%;
+  background-color: white;
+}
+
+.forth-secction {
+  background-color: white;
+  height: 70vh;
+  width: 100%;
+}
+
+.second-secction {
+  background-color: white;
+  height: 70vh;
   width: 100%;
 }
 
@@ -55,8 +96,8 @@ a {
   font-weight: 900;
 }
 
-.forth-section {
-  background-color: #b42323;
+.content {
+  background-color: #cc4e3d;
   padding: 30px 8px;
   /* height: 160vh; */
   padding: 25px;
