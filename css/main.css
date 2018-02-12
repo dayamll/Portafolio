@@ -1,18 +1,74 @@
+* {
+  font-family: Raleway;
+}
+
 body {
-  background: url(../assets/images/balls.gif);
+  background: url(../assets/images/fondo.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
-.center {
-  text-align: center;
-  font-family: sans-serif;
-  margin-top: 250px;
+a {
+  margin: 30px 20px 0px 30px;
+  font-size: 17px;
 }
 
-.size {
-  font-size: 100px;
+.space-top {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.space-right {
+  margin-right: 20px;
+}
+
+.navbar-default .navbar-toggle {
+  margin: 50px;
+}
+
+.container-fluid>.navbar-header {
+  margin-left: -35px;
+  margin-right: -35px;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.third-secction {
+  background-image: url(../assets/images/fondo.gif);
+  background-position: center;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.white {
+  color: white;
+  font-weight: 900;
+}
+
+.forth-section {
+  background-color: #b42323;
+  padding: 30px 8px;
+  /* height: 160vh; */
+  padding: 25px;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(116, 115, 115);
+  width: 100%;
+}
+
+.box-footer {
+  padding: 10px;
 }
