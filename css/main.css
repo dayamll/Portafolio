@@ -118,17 +118,18 @@ a {
   width: 15%;
 }
 
-.images{
+.images {
   padding-top: 30px;
 }
 
 ul li {
-  list-style: none; 
+  list-style: none;
 }
 
 .rigth {
   float: right;
 }
+
 /* footer */
 
 footer {
@@ -141,6 +142,22 @@ footer {
 }
 
 .proyects {
-  width: 200%;
-  margin: 60px;
+  margin: 30px;
+}
+
+.image-size-proyects {
+  width: 400px;
+}
+
+a {
+  padding-right: 0;
+}
+
+.logo {
+  width: 200px;
+}
+
+.center {
+  text-align: center;
+  padding: 100px;
 }
