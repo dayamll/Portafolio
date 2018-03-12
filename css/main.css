@@ -3,19 +3,18 @@
 }
 
 body {
-  background: url("https://source.unsplash.com/random");
-  background-attachment: fixed;
+  background: url("./assets/images/fondo.mp4");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  opacity: 0.9;
-  filter: alpha(opacity=60);
 }
 
 a {
-  margin: 30px 20px 0px 30px;
+  padding-right: 650px;
+  margin: 10px;
   font-size: 17px;
+  font-weight: 600;
 }
 
 .font {
@@ -37,22 +36,12 @@ a {
   background-color: rgba(255, 255, 255, 0.76);
   width: 700px;
   height: 400px;
-  margin: 60px 80px 0 0;
-  float: right;
+  margin: 60px 80px 0 320px;
   border: 20px solid rgba(0, 0, 0, 0.719);
 }
 
 .title-space {
   padding-top: 70px;
-}
-
-.space-top {
-  margin-top: 20px;
-  margin-left: 100px;
-}
-
-.space-right {
-  margin-right: 20px;
 }
 
 .navbar-default .navbar-toggle {
@@ -96,7 +85,7 @@ a {
 
 .second-secction {
   background-color: white;
-  height: 70vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -111,7 +100,8 @@ a {
 }
 
 .pt-2 {
-  padding: 4%;
+  padding: 3%;
+  font-size: 25px;
 }
 
 .style-img {
@@ -120,18 +110,25 @@ a {
 
 .image-size {
   width: 350px;
-  margin: 15px 0px 0px 100px;
-  border-radius: 20px;
+  margin-top: 20px;
+  border-radius: 200px;
 }
 
 .image-size-skills {
-  width: 180px;
+  width: 15%;
 }
 
 .images{
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
+ul li {
+  list-style: none; 
+}
+
+.rigth {
+  float: right;
+}
 /* footer */
 
 footer {
@@ -141,4 +138,9 @@ footer {
 
 .box-footer {
   padding: 10px;
+}
+
+.proyects {
+  width: 200%;
+  margin: 60px;
 }

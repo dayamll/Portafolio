@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/navbar-fixed-side.css" />
   <link rel="icon" href="assets/images/logo1.png">
@@ -16,46 +17,26 @@
 
 <body>
   <header>
-    <nav class="navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-            aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <img class="img-responsive space-top" src="assets/images/logo2.png" alt="Brand">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img class="img-responsive space-top" src="assets/images/logo2.png" alt="Brand">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Acerca de mi</a>
+          <a class="nav-item nav-link active" href="#">Habilidades</a>
+          <a class="nav-item nav-link active" href="#">Proyectos</a>
+          <a class="nav-item nav-link active" href="#">Contacto</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav pull-right">
-            <li>
-              <a href="second">Acerca de mi</a>
-            </li>
-            <li>
-              <a href="#">Habilidades</a>
-            </li>
-            <li class="space-right">
-              <a href="#">Proyectos</a>
-            </li>
-            <li class="space-right">
-              <a href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
       </div>
-      <!-- /.container-fluid -->
     </nav>
   </header>
-  <section class="first-secction text-center">
-    <div class="style-img">
-      <img class="image-size" src="assets/images/me.jpeg" alt="First slide">
-    </div>
 
+  <section class="first-secction text-center">
     <div class="squard">
       <h1 class="font title-space">Dayam Alisson</h1>
       <h2 class="font2">Llerena Castro</h2>
@@ -69,10 +50,13 @@
     </div>
   </section>
 
-  <section class="second-secction text-center col-lg-6 col-md-6 col-sm-12 col-xs-12 acer-textos pr-5" id="texto-acer">
-    <h2 class="pt-2"> Soy Dayam Llerena Castro, Frontend developer egresada de Labortoria.Me caracterizo por ser extrovertida y creativa. Conoci
-      el codigo a los 17 años,
-      <em> aprender cosas nuevas e inplementarlas es una de mis fortalezas</em>.Una de mis principales metas es ser UI developer.</em>
+  <section class="second-secction text-center ">
+    <img class="image-size" src="assets/images/me.jpg" alt="First slide">
+    <h2 class="pt-2"> Front-End Developer en Laboratoria. Cuento con poco más de un año en Programación Web, utilizando HTML5, CSS3, JavaScript,
+      Node.js, Babel y Frameworks. Me considero extrovertida y creativa. Conocí la Programación a los 17 años e investigo
+      sobre Tecnología para aprender e ir adquiriendo nuevos conocimientos. Uno de mis principales objetivos es convertirme
+      en una UI Developer y mi mas grande sueño es ser
+      <strong>"Diseñadora de Videos Games en la empresa mas prestigiosa de Latinoamerica".</strong>
     </h2>
   </section>
 
@@ -82,12 +66,12 @@
     </div>
   </section>
 
-  <section class="third-secction images">
+  <section class="third-secction images text-center">
     <div>
       <img src="assets/images/img1.png" class="image-size-skills" alt="">
       <img src="assets/images/img2.png" class="image-size-skills" alt="">
       <img src="assets/images/img3.png" class="image-size-skills" alt="">
-      <img src="assets/images/img4.png" class="image-size-skills" alt="">
+      <!-- <img src="assets/images/img4.png" class="image-size-skills" alt=""> -->
       <img src="assets/images/img5.png" class="image-size-skills" alt="">
       <img src="assets/images/img6.png" class="image-size-skills" alt="">
       <img src="assets/images/img7.png" class="image-size-skills" alt="">
@@ -101,6 +85,18 @@
   </section>
 
   <section class="forth-secction">
+    <div class="proyects">
+      <div>
+        <img src="assets/images/pro1.png" class="image-size-skills" alt="">
+        <img src="assets/images/pro2.png" class="image-size-skills" alt="">
+        <img src="assets/images/pro3.png" class="image-size-skills" alt="">
+      </div>
+      <div>
+        <img src="assets/images/pro4.png" class="image-size-skills" alt="">
+        <img src="assets/images/pro5.png" class="image-size-skills" alt="">
+        <img src="assets/images/pro6.png" class="image-size-skills" alt="">
+      </div>
+    </div>
 
   </section>
 
@@ -125,8 +121,12 @@
       </div>
     </div>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
   <script src="js/app.js"></script>
 </body>
 
