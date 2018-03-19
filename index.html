@@ -16,6 +16,8 @@
 </head>
 
 <body>
+  <div id="back"></div>
+  <div id="front"></div>
   <header>
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -27,15 +29,19 @@
       </a>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Acerca de mi</a>
-          <a class="nav-item nav-link active" href="#">Habilidades</a>
-          <a class="nav-item nav-link active" href="#">Proyectos</a>
-          <a class="nav-item nav-link active" href="#">Contacto</a>
+          <a class="nav-item nav-link active" href="#acerca">Acerca de mi</a>
+          <a class="nav-item nav-link active" href="#habilidades">Habilidades</a>
+          <a class="nav-item nav-link active" href="#proyectos">Proyectos</a>
+          <a class="nav-item nav-link active" href="#contacto">Contacto</a>
         </div>
       </div>
     </nav>
   </header>
 
+  <!-- <div class="container">
+    <canvas></canvas>
+    <p>Click &amp; drag to rotate</p>
+  </div> -->
   <section class="first-secction text-center">
     <div class="squard">
       <h1 class="font title-space">Dayam Alisson</h1>
@@ -45,7 +51,7 @@
   </section>
 
   <section class="content">
-    <div>
+    <div id="acerca">
       <h1 class="white text-center">Acerca de mi</h1>
     </div>
   </section>
@@ -61,16 +67,19 @@
   </section>
 
   <section class="content">
-    <div>
+    <div id="habilidades">
       <h2 class="white text-center">Habilidades</h2>
     </div>
   </section>
 
   <section class="third-secction images text-center">
-    <div>
+    <div class="bear">
       <img src="assets/images/img1.png" class="image-size-skills" alt="">
       <img src="assets/images/img2.png" class="image-size-skills" alt="">
       <img src="assets/images/img3.png" class="image-size-skills" alt="">
+      <div class="container">
+        <canvas></canvas>
+      </div>
       <img src="assets/images/img4.png" class="image-size-skills" alt="">
       <img src="assets/images/img5.png" class="image-size-skills" alt="">
       <img src="assets/images/img7.png" class="image-size-skills" alt="">
@@ -78,7 +87,7 @@
   </section>
 
   <section class="content">
-    <div>
+    <div id="proyectos">
       <h2 class="white text-center">Proyectos</h2>
     </div>
   </section>
@@ -112,24 +121,23 @@
   </section>
 
   <section class="content">
-    <div>
+    <div id="contacto">
       <h2 class="white text-center">Contacto</h2>
     </div>
   </section>
 
   <section class="forth-secction">
-    <div class="center">
-      <a href="https://github.com/dayamll" class="side-right " target="_blank">
-        <img src="assets/images/img6.png" class="logo" alt="">
+    <div class="center contact">
+      <a href="https://github.com/dayamll" class="side-right cont" target="_blank">
+        <img src="assets/images/img6.png" class="logo" alt=""><span>Github</span>
       </a>
-      <a href="https://plus.google.com/u/0/101780200986477970421" class="side-right " target="_blank">
-        <img src="assets/images/mail.png" class="logo" alt="">
+      <a href="https://plus.google.com/u/0/101780200986477970421" class="side-right cont" target="_blank">
+        <img src="assets/images/mail.png" class="logo" alt=""><span>G-mail</span>
       </a>
-    <a href="https://www.linkedin.com/in/dayamllerena15031999/" class="side-right " target="_blank">
-      <img src="assets/images/lin.png" class="logo" alt="">
-    </a>
+      <a href="https://www.linkedin.com/in/dayamllerena15031999/" class="side-right cont" target="_blank">
+        <img src="assets/images/lin.png" class="logo" alt=""><span>Linkedin</span>
+      </a>
     </div>
-
   </section>
 
 
