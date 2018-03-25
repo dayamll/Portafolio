@@ -5,119 +5,12 @@
 }
 
 body {
-  background-color: #570807;
-}
-
-.bear {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-canvas {
-  display: block;
-  margin: 0 auto 20px;
-  cursor: move;
-  width: 200px;
-}
-
-@-webkit-keyframes backgroundAnimate {
-  from {
-    left: 0;
-    top: 0;
-  }
-  to {
-    left: -10000px;
-    top: -2000px;
-  }
-}
-
-@-moz-keyframes backgroundAnimate {
-  from {
-    left: 0;
-    top: 0;
-  }
-  to {
-    left: -10000px;
-    top: -2000px;
-  }
-}
-
-@-o-keyframes backgroundAnimate {
-  from {
-    left: 0;
-    top: 0;
-  }
-  to {
-    left: -10000px;
-    top: -2000px;
-  }
-}
-
-@keyframes backgroundAnimate {
-  from {
-    left: 0;
-    top: 0;
-  }
-  to {
-    left: -10000px;
-    top: -2000px;
-  }
-}
-
-#back {
-  background: url(http://www.tranexnet.com/img/back.png) repeat 20% 20%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.4;
-  z-index: -1;
-  -webkit-animation-name: backgroundAnimate;
-  -webkit-animation-duration: 100s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-name: backgroundAnimate;
-  -moz-animation-duration: 5s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
-  -o-animation-name: backgroundAnimate;
-  -o-animation-duration: 200s;
-  -o-animation-timing-function: linear;
-  -o-animation-iteration-count: infinite;
-  animation-name: backgroundAnimate;
-  animation-duration: 200s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-#front {
-  background: url(http://www.tranexnet.com/img/front.png) repeat 35% 35%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.6;
-  z-index: -1;
-  -webkit-animation-name: backgroundAnimate;
-  -webkit-animation-duration: 100s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-name: backgroundAnimate;
-  -moz-animation-duration: 100s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
-  -o-animation-name: backgroundAnimate;
-  -o-animation-duration: 100s;
-  -o-animation-timing-function: linear;
-  -o-animation-iteration-count: infinite;
-  animation-name: backgroundAnimate;
-  animation-duration: 100s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  background-image: url('../assets/images/sky.gif');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 a {
@@ -179,6 +72,11 @@ a {
 }
 
 .first-secction {
+  background-image: url('../assets/images/fondo.jpg');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   width: 100%;
   padding: 170px 80px 0 320px;
@@ -257,10 +155,12 @@ footer {
 
 .proyects {
   padding: 30px;
+  padding-left: 80px;
 }
 
 .image-size-proyects {
-  width: 400px;
+  width: 350px;
+  margin: 10px;
 }
 
 .side-right {
@@ -268,78 +168,5 @@ footer {
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
 }
-
-.center {
-  text-align: center;
-  margin: 130px 80px 50px 600px;
-}
-
-.contact {
-  display: inline-block;
-  position:absolute;
-  -ms-transform:translate(-50%,-50%);
-  -webkit-transform:translate(-50%,-50%);
-  transform:translate(-50%,-50%);
-}
-
-/* Icons */
-
-.cont {
-  position: relative;
-  display: inline-block;
-  width:40px;
-  height:28px;
-  margin: 80px;
-  -o-transition:all .5s;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
-   -webkit-font-smoothing: antialiased;
-}
-
-/* pop-up text */
-
-.cont span {
-  color:#666;
-  position:absolute;
-  font-family:sans-serif;
-  bottom:0;
-  left:-25px;
-  right:-25px;
-
-  z-index:-1;
-  font-size:14px;
-  border-radius:2px;
-  background:#fff;
-  visibility:hidden;
-  opacity:0;
-  -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-/* pop-up text arrow */
-
-.cont span:before {
-  content:'';
-  width: 0; 
-  height: 0; 
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #fff;
-  position:absolute;
-  bottom:-5px;
-  left:40px;
-}
-
-/* text pops up when icon is in hover state */
-
-.cont:hover span {
-  bottom:50px;
-  visibility:visible;
-  opacity:1;
-}
-
