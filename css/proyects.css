@@ -9,12 +9,14 @@
 
 .gallery {
   text-align: center;
-  padding: 35px;
+  padding: 8px;
 }
 
 .gallery li {
-  width: 350px;
-  border: 5px solid black;
+  width: 400px;
+  height: 200px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
   text-align: center;
   position: relative;
   margin: 5px;
@@ -93,7 +95,7 @@
   opacity: 1;
 }
 
-.gallery li:hover img {
+.gallery li:hover .image {
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   -webkit-transform: scale(1, 1);
@@ -111,14 +113,15 @@
   transition-duration: 0.8s;
 }
 
-.gallery li:hover:hover img {
+.gallery li:hover:hover .image {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
 
-.gallery li img {
+.gallery li .image {
   display: block;
-  width: 350px;
+  width: 400px;
+  height: 190px;
   margin: 0 auto;
   display: inline-block;
   text-align: center;

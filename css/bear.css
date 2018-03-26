@@ -18,8 +18,8 @@ canvas {
     top: 0;
   }
   to {
-    left: -10000px;
-    top: -2000px;
+    left: -15000px;
+    top: -2500px;
   }
 }
 
@@ -29,8 +29,8 @@ canvas {
     top: 0;
   }
   to {
-    left: -10000px;
-    top: -2000px;
+    left: -15000px;
+    top: -2500px;
   }
 }
 
@@ -40,8 +40,8 @@ canvas {
     top: 0;
   }
   to {
-    left: -10000px;
-    top: -2000px;
+    left: -15000px;
+    top: -2500px;
   }
 }
 
@@ -51,8 +51,8 @@ canvas {
     top: 0;
   }
   to {
-    left: -10000px;
-    top: -2000px;
+    left: -15000px;
+    top: -2500px;
   }
 }
 
@@ -63,22 +63,22 @@ canvas {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.4;
+  /* opacity: 0.4; */
   z-index: -1;
   -webkit-animation-name: backgroundAnimate;
-  -webkit-animation-duration: 100s;
+  -webkit-animation-duration: 50s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-name: backgroundAnimate;
-  -moz-animation-duration: 5s;
+  -moz-animation-duration: 3s;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
   -o-animation-name: backgroundAnimate;
-  -o-animation-duration: 200s;
+  -o-animation-duration: 150s;
   -o-animation-timing-function: linear;
   -o-animation-iteration-count: infinite;
   animation-name: backgroundAnimate;
-  animation-duration: 200s;
+  animation-duration: 150s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -90,22 +90,21 @@ canvas {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.6;
   z-index: -1;
   -webkit-animation-name: backgroundAnimate;
-  -webkit-animation-duration: 100s;
+  -webkit-animation-duration: 50s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-name: backgroundAnimate;
-  -moz-animation-duration: 100s;
+  -moz-animation-duration: 50s;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
   -o-animation-name: backgroundAnimate;
-  -o-animation-duration: 100s;
+  -o-animation-duration: 50s;
   -o-animation-timing-function: linear;
   -o-animation-iteration-count: infinite;
   animation-name: backgroundAnimate;
-  animation-duration: 100s;
+  animation-duration: 50s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }

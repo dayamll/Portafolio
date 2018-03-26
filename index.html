@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/bear.css">
   <link rel="stylesheet" href="css/contacs.css">
-  <link rel="stylesheet" href="css/proyects.css">  
+  <link rel="stylesheet" href="css/proyects.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="icon" href="assets/images/logo1.png">
   <title>Dayam Alisson</title>
 </head>
@@ -20,27 +21,39 @@
 <body>
   <div id="back"></div>
   <div id="front"></div>
-  <header>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded principal">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+  <header class="">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
         <img class="img-responsive space-top" src="assets/images/logo2.png" alt="Brand">
       </a>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#acerca">Acerca de mi</a>
-          <a class="nav-item nav-link active" href="#habilidades">Habilidades</a>
-          <a class="nav-item nav-link active" href="#proyectos">Proyectos</a>
-          <a class="nav-item nav-link active" href="#contacto">Contacto</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-item nav-link active" href="#acerca">Acerca de mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link active" href="#habilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link active" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link active" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary" href="assets/docs/curriculum-org.pdf" role="button" download>Descarga CV</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
 
-  <section class="first-secction text-center">
+  <section class="first-secction text-center ">
     <div class="squard">
       <h1 class="font title-space">Dayam Alisson</h1>
       <h2 class="font2">Llerena Castro</h2>
@@ -48,7 +61,7 @@
     </div>
   </section>
 
-  <section class="content">
+  <section class="content ">
     <div id="acerca">
       <h1 class="white text-center">Acerca de mi</h1>
     </div>
@@ -62,10 +75,9 @@
       en una UI Developer y mi mas grande sueño es ser
       <strong>"Diseñadora de Videos Games en la empresa mas prestigiosa de Latinoamerica".</strong>
     </h2>
-    <a class="btn btn-outline-primary" href="assets/docs/curriculum-org.pdf" role="button" download>Descarga CV</a>
   </section>
 
-  <section class="content">
+  <section class="content ">
     <div id="habilidades">
       <h2 class="white text-center">Habilidades</h2>
     </div>
@@ -85,38 +97,81 @@
     </div>
   </section>
 
-  <section class="content">
+  <section class="content ">
     <div id="proyectos">
       <h2 class="white text-center">Proyectos</h2>
     </div>
   </section>
 
-  <section class="forth-secction">
-      <ul class="gallery">
-        <li><a href="https://carlacentenor.github.io/social-network/" class="style" target="_blank"><img src="assets/images/pro1.png" class="img-proyect"/><span class="name">Rexodus<span class="title">Destruction Expert</span></span></a></li>
-        <li><a href="https://margaritasj.github.io/easy-vreco/." class="style" target="_blank"><img src="assets/images/pro2.png"/><span class="name">Joe Shmoe <span class="title">Philanthrapy Expert</span></span></a></li>
-        <li><a href="https://wendytamara.github.io/hackaton/" class="style" target="_blank"><img src="assets/images/pro3.png"/><span class="name">Steve Snyder <span class="title">Beard Extrodinarre</span></span></a></li>
-        <li><a href="https://dayamll.github.io/api-weather/public" class="style" target="_blank"><img src="assets/images/pro4.png"/><span class="name">Rexodus<span class="title">Destruction Expert</span></span></a></li>
-        <li><a href="https://margaritasj.github.io/cardify/public/" class="style" target="_blank"><img src="assets/images/pro5.png"/><span class="name">Joe Shmoe <span class="title">Philanthrapy Expert</span></span></a></li>
-        <li><a href="https://dayamll.github.io/Pushin-3/" class="style" target="_blank"><img src="assets/images/pro6.png"/><span class="name">Steve Snyder <span class="title">Beard Extrodinarre</span></span></a></li>
-      </ul>
+  <section class="forth-secction ">
+    <ul class="gallery">
+      <li>
+        <a href="https://carlacentenor.github.io/social-network/" class="style" target="_blank">
+          <img src="assets/images/pro1.png" class="image" />
+          <span class="name">Our Kids
+            <span class="title">Red social para público en general que deseen compartir informacion para ayudar a niños con autismos.</span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://margaritasj.github.io/easy-vreco/." class="style" target="_blank">
+          <img src="assets/images/pro2.png" class="image" />
+          <span class="name">Easy Vreco
+            <span class="title">App que detecta tu ubicación actual y también traza la ruta entre los puntos ya asignados para tu viaje.</span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://wendytamara.github.io/hackaton/" class="style" target="_blank">
+          <img src="assets/images/pro3.png" class="image" />
+          <span class="name">Blockbuster
+            <span class="title">BlockBuster esta hecha para familias, su contenido es apto para todo publico, contiene trailers de peliculas
+              de estreno.</span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://dayamll.github.io/api-weather/public" class="style" target="_blank">
+          <img src="assets/images/pro4.png" class="image" />
+          <span class="name">Weather
+            <span class="title">Weather permite saber el clima actual y el de la semana siguiente. </span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://margaritasj.github.io/cardify/public/" class="style" target="_blank">
+          <img src="assets/images/pro5.png" class="image" />
+          <span class="name">Cardify
+            <span class="title">Cardify es un plugin de jQuery para imagenes. </span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://dayamll.github.io/Pushin-3/" class="style" target="_blank">
+          <img src="assets/images/pro6.png" class="image" />
+          <span class="name">Pusheen
+            <span class="title">Pusheen juego interactivo usando jQuery</span>
+          </span>
+        </a>
+      </li>
+    </ul>
   </section>
 
-  <section class="content">
+  <section class="content ">
     <div id="contacto">
       <h2 class="white text-center">Contacto</h2>
     </div>
   </section>
 
-  <section class="forth-secction">
+  <section class="five-secction">
     <div class="center contact">
-      <a href="https://github.com/dayamll" class="side-right cont" target="_blank">
-        <img src="assets/images/img6.png" class="logo" alt="">
-        <span>Github</span>
-      </a>
       <a href="https://plus.google.com/u/0/101780200986477970421" class="side-right cont" target="_blank">
         <img src="assets/images/mail.png" class="logo" alt="">
         <span>Google</span>
+      </a>
+      <a href="https://github.com/dayamll" class="side-right cont" target="_blank">
+        <img src="assets/images/img6.png" class="logo" alt="">
+        <span>Github</span>
       </a>
       <a href="https://www.linkedin.com/in/dayamllerena15031999/" class="side-right cont" target="_blank">
         <img src="assets/images/lin.png" class="logo" alt="">
@@ -126,11 +181,16 @@
         <img src="assets/images/face.png" class="logo" alt="">
         <span>Facebook</span>
       </a>
+      <div>
+        <p class="padding-top">
+          <img src="assets/images/gmail.png" alt="" class="size-email">Gmail: dayamllerenacastro@gmail.com</p>
+        <p class="telf">
+          <img src="assets/images/telf.png" alt="" class="size-email">Telefono: 936 711 844</p>
+      </div>
     </div>
   </section>
 
-
-  <footer class="box-footer">
+  <footer class="box-footer ">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <p class="white text-center">
@@ -140,6 +200,13 @@
       </div>
     </div>
   </footer>
+  <div>
+    <div class="c"></div>
+    <div class="c-c">
+      <div class="c-e"></div>
+      <div class="c-e"></div>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"

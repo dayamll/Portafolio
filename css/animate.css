@@ -1,0 +1,68 @@
+.c {
+  width: 30vh;
+  height: 30vh;
+  position: absolute;
+  bottom: -16.66666667vh;
+  left: 0;
+  border-radius: 43% 40% 43% 40%;
+  background: #312036;
+  animation: bounce 1s infinite alternate, wave 2s infinite linear, waking 7s infinite alternate linear;
+}
+
+.c-e {
+  width: 5vh;
+  height: 5vh;
+  border: 1.30434783vh solid #fff;
+  transform: translateY(0);
+  border-radius: 50%;
+  animation: blink 4s infinite linear;
+}
+
+.c-c {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 24vh;
+  bottom: 3vh;
+  z-index: 1;
+  left: 7.5vh;
+  padding: 0 0.8vw;
+  z-index: 1;
+  animation: waking 7s infinite alternate linear;
+}
+
+@keyframes wave {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes waking {
+  100% {
+    left: calc(100% - 30vh);
+  }
+}
+
+@keyframes bounce {
+  100% {
+    bottom: -20vh;
+  }
+}
+
+@keyframes blink {
+  0%,
+  5%,
+  30%,
+  37%,
+  100% {
+    height: 5vh;
+    border-width: 1.36363636vh;
+    transform: translateY(0);
+  }
+  3%,
+  33% {
+    height: 0;
+    border-width: 0;
+    transform: translateY(-3vh);
+  }
+}

@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  padding-right: 650px;
+  padding-right: 550px;
   margin: 10px;
   font-size: 17px;
   font-weight: 600;
@@ -79,11 +79,12 @@ a {
   background-size: cover;
   height: 100vh;
   width: 100%;
-  padding: 170px 80px 0 320px;
+  opacity: 0.9;
+  padding: 130px 80px 0 320px;
 }
 
 .third-secction {
-  height: 70vh;
+  height: 50vh;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.425);
 }
@@ -91,6 +92,12 @@ a {
 .forth-secction {
   background-color: rgba(255, 255, 255, 0.479);
   height: 70vh;
+  width: 100%;
+}
+
+.five-secction {
+  background-color: rgba(255, 255, 255, 0.479);
+  height: 50vh;
   width: 100%;
 }
 
@@ -131,7 +138,7 @@ a {
 }
 
 .images {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 ul li {
@@ -164,4 +171,28 @@ footer {
 
 .img-proyect {
   width: 200px;
+}
+
+.side-right {
+  padding-right: 0;	
+}	
+
+.padding-top {
+  padding-top: 50px;
+  font-weight: 900;
+  color: black;
+  float: left;
+}
+
+.telf {
+  padding-top: 50px;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  float: right;
+}
+
+.size-email {
+  width: 20px;
+  margin: 5px;
 }
