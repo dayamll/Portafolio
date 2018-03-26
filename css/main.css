@@ -158,15 +158,10 @@ footer {
   padding-left: 80px;
 }
 
-.image-size-proyects {
-  width: 350px;
-  margin: 10px;
-}
-
-.side-right {
-  padding-right: 0;
-}
-
 .logo {
   width: 150px;
+}
+
+.img-proyect {
+  width: 200px;
 }
