@@ -18,92 +18,84 @@
   <title>Dayam Alisson</title>
 </head>
 
-<body>
+<body id="page-top">
   <div id="back"></div>
   <div id="front"></div>
 
-  <header class="">
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <header>
+    <nav id="mainNav" class="navbar navbar-toggleable-md navbar-light bg-faded ">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img class="img-responsive space-top" src="assets/images/logo2.png" alt="Brand">
+        <img class="img-responsive space-top"  js-scroll-trigger src="assets/images/logo2.png" alt="Brand">
       </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-item nav-link active" href="#acerca">Acerca de mi</a>
+            <a class="nav-item nav-link active" js-scroll-trigger href="#acerca">Acerca de mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link active" href="#habilidades">Habilidades</a>
+            <a class="nav-item nav-link active" js-scroll-trigger href="#habilidades">Habilidades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link active" href="#proyectos">Proyectos</a>
+            <a class="nav-item nav-link active" js-scroll-trigger href="#proyectos">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link active" href="#contacto">Contacto</a>
+            <a class="nav-item nav-link active" js-scroll-trigger href="#contacto">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-outline-primary" href="assets/docs/curriculum-org.pdf" role="button" download>Descarga CV</a>
+            <a class="btn btn-outline-primary" js-scroll-trigger href="assets/docs/curriculum-org.pdf" role="button" download>Descarga CV</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <section class="first-secction text-center ">
-    <div class="squard">
+  <section class="first-secction text-center">
+    <div>
       <h1 class="font title-space">Dayam Alisson</h1>
       <h2 class="font2">Llerena Castro</h2>
-      <h5 class="font3">Frontend Developer</h5>
-    </div>
-  </section>
-
-  <section class="content ">
-    <div id="acerca">
-      <h1 class="white text-center">Acerca de mi</h1>
-    </div>
-  </section>
-
-  <section class="second-secction text-center ">
-    <img class="image-size" src="assets/images/me.jpg" alt="First slide">
-    <h2 class="pt-2"> Front-End Developer en Laboratoria. Cuento con poco más de un año en Programación Web, utilizando HTML5, CSS3, JavaScript,
-      Node.js, Babel y Frameworks. Me considero extrovertida y creativa. Conocí la Programación a los 17 años e investigo
-      sobre Tecnología para aprender e ir adquiriendo nuevos conocimientos. Uno de mis principales objetivos es convertirme
-      en una UI Developer y mi mas grande sueño es ser
-      <strong>"Diseñadora de Videos Games en la empresa mas prestigiosa de Latinoamerica".</strong>
-    </h2>
-  </section>
-
-  <section class="content ">
-    <div id="habilidades">
-      <h2 class="white text-center">Habilidades</h2>
-    </div>
-  </section>
-
-  <section class="third-secction images text-center">
-    <div class="bear">
-      <img src="assets/images/img1.png" class="image-size-skills" alt="">
-      <img src="assets/images/img2.png" class="image-size-skills" alt="">
-      <img src="assets/images/img3.png" class="image-size-skills" alt="">
-      <div class="container">
-        <canvas></canvas>
+      <div class="first-text">
+        $
+        <span id="first-text"></span>
+        <span class="blinking-cursor">|</span>
       </div>
-      <img src="assets/images/img4.png" class="image-size-skills" alt="">
-      <img src="assets/images/img5.png" class="image-size-skills" alt="">
-      <img src="assets/images/img7.png" class="image-size-skills" alt="">
     </div>
   </section>
 
-  <section class="content ">
-    <div id="proyectos">
-      <h2 class="white text-center">Proyectos</h2>
+  <section class="second-secction text-center " id="acerca">
+    <div>
+      <img class="image-size" src="assets/images/me.jpg" alt="First slide">
+      <h2 class="pt-2"> Front-End Developer en Laboratoria. Cuento con poco más de un año en Programación Web, utilizando HTML5, CSS3, JavaScript,
+        Node.js, Babel y Frameworks. Me considero extrovertida y creativa. Conocí la Programación a los 17 años e investigo
+        sobre Tecnología para aprender e ir adquiriendo nuevos conocimientos. Uno de mis principales objetivos es convertirme
+        en una UI Developer y mi mas grande sueño es ser
+        <strong>"Diseñadora de Videos Games en la empresa mas prestigiosa de Latinoamerica".</strong>
+      </h2>
+    </div>
+    <div class="textCode">
+      $
+      <span id="typing-text-first"></span>
+      <span class="main-text blinking-cursor">|</span>
     </div>
   </section>
+  <section class="third-secction images text-center" id="habilidades">
+      <div class="bear">
+        <img src="assets/images/img1.png" class="image-size-skills" alt="">
+        <img src="assets/images/img2.png" class="image-size-skills" alt="">
+        <img src="assets/images/img3.png" class="image-size-skills" alt="">
+        <div class="container">
+          <canvas></canvas>
+        </div>
+        <img src="assets/images/img4.png" class="image-size-skills" alt="">
+        <img src="assets/images/img5.png" class="image-size-skills" alt="">
+        <img src="assets/images/img7.png" class="image-size-skills" alt="">
+      </div>
+  </section>
 
-  <section class="forth-secction ">
+  <section class="forth-secction" id="proyectos">
     <ul class="gallery">
       <li>
         <a href="https://carlacentenor.github.io/social-network/" class="style" target="_blank">
@@ -121,6 +113,7 @@
           </span>
         </a>
       </li>
+
       <li>
         <a href="https://wendytamara.github.io/hackaton/" class="style" target="_blank">
           <img src="assets/images/pro3.png" class="image" />
@@ -130,6 +123,7 @@
           </span>
         </a>
       </li>
+
       <li>
         <a href="https://dayamll.github.io/api-weather/public" class="style" target="_blank">
           <img src="assets/images/pro4.png" class="image" />
@@ -138,6 +132,7 @@
           </span>
         </a>
       </li>
+
       <li>
         <a href="https://margaritasj.github.io/cardify/public/" class="style" target="_blank">
           <img src="assets/images/pro5.png" class="image" />
@@ -156,15 +151,16 @@
       </li>
     </ul>
   </section>
-
-  <section class="content ">
-    <div id="contacto">
-      <h2 class="white text-center">Contacto</h2>
-    </div>
-  </section>
-
+  <div class="plus text-center padding">
+    <a class="btn btn-secondary" href="https://github.com/carlacentenor/social-network" target="_blank" role="button">Our Kids</a>
+    <a class="btn btn-secondary" href="https://github.com/dayamll/easy-vreco" target="_blank" role="button">Easy-Vreco</a>
+    <a class="btn btn-secondary" href="https://github.com/dayamll/hackaton" target="_blank" role="button">Blockbuster</a>
+    <a class="btn btn-secondary" href="https://github.com/dayamll/api-weather" target="_blank" role="button">Weather</a>
+    <a class="btn btn-secondary" href="https://github.com/dayamll/cardify" target="_blank" role="button">Cardify</a>
+    <a class="btn btn-secondary" href="https://github.com/dayamll/Pushin-3" target="_blank" role="button">Pusheen</a>
+  </div>
   <section class="five-secction">
-    <div class="center contact">
+    <div class="center contact" id="contacto">
       <a href="https://plus.google.com/u/0/101780200986477970421" class="side-right cont" target="_blank">
         <img src="assets/images/mail.png" class="logo" alt="">
         <span>Google</span>
@@ -190,7 +186,7 @@
     </div>
   </section>
 
-  <footer class="box-footer ">
+  <footer class="box-footer">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <p class="white text-center">

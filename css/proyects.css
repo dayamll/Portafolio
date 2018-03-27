@@ -9,7 +9,11 @@
 
 .gallery {
   text-align: center;
-  padding: 8px;
+  padding-top: 30px;
+}
+
+.padding {
+  padding-bottom: 20px;
 }
 
 .gallery li {
@@ -23,12 +27,6 @@
   display: inline-block;
   overflow: hidden;
   background-color: black;
-}
-
-.gallery li:nth-child(2) img {
-  margin: 0;
-  display: inline-block;
-  float: right;
 }
 
 .gallery li .name {
@@ -122,7 +120,6 @@
   display: block;
   width: 400px;
   height: 190px;
-  margin: 0 auto;
   display: inline-block;
   text-align: center;
   -moz-transform: scale(1.09, 1.09);
