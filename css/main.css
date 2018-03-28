@@ -15,6 +15,10 @@ a {
   font-weight: 600;
 }
 
+.size-logo {
+  width: 50px;
+}
+
 .font {
   font-size: 100px;
   font-weight: 1000;
