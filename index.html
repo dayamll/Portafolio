@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="css/contacs.css">
   <link rel="stylesheet" href="css/proyects.css">
   <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/nav-hover.css">
+  <link rel="stylesheet" href="css/slide.css">
+  <link rel="stylesheet" href="css/image.css">
   <link rel="icon" href="assets/images/logo1.png">
   <title>Dayam Alisson</title>
 </head>
@@ -23,30 +26,32 @@
   <div id="front"></div>
 
   <header>
-    <nav id="mainNav" class="navbar navbar-toggleable-md navbar-light bg-faded ">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded ">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img class="img-responsive space-top size-logo" js-scroll-trigger src="assets/images/logo2.png" alt="Brand">
+        <img class="img-responsive space-top size-logo1" src="assets/images/logo2.png" alt="Brand">
       </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
+          <ul class="snip1250">
+            <li class="nav-item ">
+              <a class="nav-item nav-link active nav-link" data-hover="Acerca de mi" href="#acerca">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link active nav-link" data-hover="Habilidades" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link active nav-link" data-hover="Proyectos" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link active nav-link" data-hover="Contacto" href="#contacto">Contacto</a>
+            </li>
+          </ul>
           <li class="nav-item">
-            <a class="nav-item nav-link active" js-scroll-trigger href="#acerca">Acerca de mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link active" js-scroll-trigger href="#habilidades">Habilidades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link active" js-scroll-trigger href="#proyectos">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link active" js-scroll-trigger href="#contacto">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-outline-primary" js-scroll-trigger href="assets/docs/curriculum-org.pdf" role="button" download>Descarga CV</a>
+            <a class="btn btn-outline-primary" href="assets/docs/curriculum-org.pdf" role="button" download>Descarga CV</a>
           </li>
         </ul>
       </div>
@@ -54,24 +59,26 @@
   </header>
 
   <section class="first-secction text-center">
-    <div>
-      <h1 class="font title-space">Dayam Alisson</h1>
-      <h2 class="font2">Llerena Castro</h2>
-      <div class="first-text">
-        $
-        <span id="first-text"></span>
-        <span class="blinking-cursor">|</span>
+    <div class="row">
+      <div class="text-center col-12">
+        <h1 class="font title-space">Dayam Alisson</h1>
+        <h2 class="font2">Llerena Castro</h2>
+        <div class="first-text">
+          $
+          <span id="first-text"></span>
+          <span class="blinking-cursor">|</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="content ">
+  <section class="content  col-lg-12">
     <div id="acerca">
       <h2 class="white text-center">Acerca de mí</h2>
     </div>
   </section>
 
-  <section class="second-secction text-center ">
+  <section class="second-secction text-center  col-lg-12">
     <div>
       <img class="image-size" src="assets/images/me.jpg" alt="First slide">
       <h2 class="pt-2"> Front-End Developer en Laboratoria. Cuento con poco más de un año en Programación Web, utilizando HTML5, CSS3, JavaScript,
@@ -81,27 +88,27 @@
         <strong> "Diseñadora de Videos Games en la empresa más prestigiosa de Latinoamérica".</strong>
       </h2>
     </div>
-    <div class="textCode">
+    <div class="textCode col-lg-12">
       $
       <span id="typing-text-first"></span>
       <span class="main-text blinking-cursor">|</span>
     </div>
   </section>
 
-  <section class="content ">
+  <section class="content col-lg-12">
     <div id="habilidades">
       <h2 class="white text-center">Habilidades</h2>
     </div>
   </section>
 
-  <section class="third-secction images text-center" id="habilidades">
+  <section class="third-secction images text-center  col-lg-12" id="habilidades">
     <div class="bear">
       <img src="assets/images/img1.png" class="image-size-skills" alt="">
       <img src="assets/images/img2.png" class="image-size-skills" alt="">
       <img src="assets/images/img3.png" class="image-size-skills" alt="">
-      <div class="container">
+      <!-- <div class="container">
         <canvas></canvas>
-      </div>
+      </div> -->
       <img src="assets/images/img4.png" class="image-size-skills" alt="">
       <img src="assets/images/img5.png" class="image-size-skills" alt="">
       <img src="assets/images/img7.png" class="image-size-skills" alt="">
@@ -109,85 +116,94 @@
   </section>
 
 
-  <section class="content ">
+  <section class="content  col-lg-12">
     <div id="proyectos">
       <h2 class="white text-center">Proyectos</h2>
     </div>
   </section>
 
-  <section class="forth-secction">
-    <ul class="gallery">
-      <li>
-        <a href="https://carlacentenor.github.io/social-network/" class="style" target="_blank">
-          <img src="assets/images/pro1.png" class="image" />
-          <span class="name">Our Kids
-            <span class="title">Red social para público en general que deseen compartir informacion para ayudar a niños con autismos.</span>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://margaritasj.github.io/easy-vreco/." class="style" target="_blank">
-          <img src="assets/images/pro2.png" class="image" />
-          <span class="name">Easy Vreco
-            <span class="title">App que detecta tu ubicación actual y también traza la ruta entre los puntos ya asignados para tu viaje.</span>
-          </span>
-        </a>
-      </li>
-
-      <li>
-        <a href="https://wendytamara.github.io/hackaton/" class="style" target="_blank">
-          <img src="assets/images/pro3.png" class="image" />
-          <span class="name">Blockbuster
-            <span class="title">BlockBuster esta hecha para familias, su contenido es apto para todo publico, contiene trailers de peliculas
-              de estreno.</span>
-          </span>
-        </a>
-      </li>
-
-      <li>
-        <a href="https://dayamll.github.io/api-weather/public" class="style" target="_blank">
-          <img src="assets/images/pro4.png" class="image" />
-          <span class="name">Weather
-            <span class="title">Weather permite saber el clima actual y el de la semana siguiente. </span>
-          </span>
-        </a>
-      </li>
-
-      <li>
-        <a href="https://margaritasj.github.io/cardify/public/" class="style" target="_blank">
-          <img src="assets/images/pro5.png" class="image" />
-          <span class="name">Cardify
-            <span class="title">Cardify es un plugin de jQuery para imagenes. </span>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://dayamll.github.io/Pushin-3/" class="style" target="_blank">
-          <img src="assets/images/pro6.png" class="image" />
-          <span class="name">Pusheen
-            <span class="title">Pusheen juego interactivo usando jQuery</span>
-          </span>
-        </a>
-      </li>
-    </ul>
+  <section class="seccion-uno-movi seccion-movi seccion-dos-movi section-position seccion-tres-movi border-bottom  col-lg-12">
+    <div class="carrusel">
+      <ul class="list-carrusel slick-slider gallery">
+        <div class="slick-list">
+          <div class="slick-track">
+            <li class="slick-slide" data-slick-index="1">
+              <img src="http://www.lovethispic.com/uploaded_images/79496-Adorable-Kids.jpg" class="enlace-rosa" alt="Movii" width="200"
+                height="96">
+              <span class="name">Our Kids</span>
+            </li>
+            <li class="slick-slide" data-slick-index="2">
+              <img src="https://static.tumblr.com/2bf3a6e60eda8956fe1cf11687a24198/iopql0v/J4lnwf9ox/tumblr_static_3jy86yl542kgkc40kgg48wo8c_640_v2.jpg"
+                class="enlace-rosa" alt="Movii" width="200" height="96">
+              <span class="name">Easy-Vreco</span>
+            </li>
+            <li class="slick-slide" data-slick-index="3">
+              <img src="http://application.denofgeek.com/pics/film/list/disney.tjb.jpg" class="enlace-rosa" alt="Movii" width="200" height="96">
+              <span class="name">BloskBuster</span>
+            </li>
+            <li class="slick-slide" data-slick-index="4">
+              <img src="https://static.tumblr.com/5e1bac18091cf370f61fe75aeabc2276/kwowqwc/v1gnugwu1/tumblr_static_tumblr_static__640.jpg"
+                class="enlace-rosa" alt="Movii" width="200" height="96">
+              <span class="name">Weather</span>
+            </li>
+          </div>
+        </div>
+      </ul>
+      <div class="modal-paquetes  col-lg-12">
+        <div class="content-popup" id="paquete-target01">
+          <ul class="boxes">
+            <li>
+              <a class="btn btn-secondary" href="https://github.com/carlacentenor/social-network" target="_blank" role="button">Ver Repositorio</a>
+            </li>
+            <li>
+              <a class="btn btn-secondary" href="https://carlacentenor.github.io/social-network/" target="_blank" role="button">Ver Demo</a>
+            </li>
+          </ul>
+        </div>
+        <!-- content-popup 1-->
+        <div class="content-popup" id="paquete-target02">
+          <ul class="boxes">
+            <li>
+              <a class="btn btn-secondary" href="https://github.com/dayamll/easy-vreco" target="_blank" role="button">Ver Repositorio</a>
+            </li>
+            <li>
+              <a class="btn btn-secondary" href="https://margaritasj.github.io/easy-vreco/." target="_blank" role="button">Ver Demo</a>
+            </li>
+          </ul>
+        </div>
+        <!-- content-popup 1-->
+        <div class="content-popup" id="paquete-target03">
+          <ul class="boxes">
+            <li>
+              <a class="btn btn-secondary" href="https://github.com/dayamll/hackaton" target="_blank" role="button">Ver Repositorio</a>
+            </li>
+            <li>
+              <a class="btn btn-secondary" href="https://wendytamara.github.io/hackaton/" target="_blank" role="button">Ver Demo</a>
+            </li>
+          </ul>
+        </div>
+        <div class="content-popup" id="paquete-target04">
+          <ul class="boxes">
+            <li>
+              <a class="btn btn-secondary" href="https://github.com/dayamll/api-weather" target="_blank" role="button">Ver Repositorio</a>
+            </li>
+            <li>
+              <a class="btn btn-secondary" href="https://dayamll.github.io/api-weather/public" target="_blank" role="button">Ver Demo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
-  <div class="plus text-center padding">
-    <a class="btn btn-secondary" href="https://github.com/carlacentenor/social-network" target="_blank" role="button">Our Kids</a>
-    <a class="btn btn-secondary" href="https://github.com/dayamll/easy-vreco" target="_blank" role="button">Easy-Vreco</a>
-    <a class="btn btn-secondary" href="https://github.com/dayamll/hackaton" target="_blank" role="button">Blockbuster</a>
-    <a class="btn btn-secondary" href="https://github.com/dayamll/api-weather" target="_blank" role="button">Weather</a>
-    <a class="btn btn-secondary" href="https://github.com/dayamll/cardify" target="_blank" role="button">Cardify</a>
-    <a class="btn btn-secondary" href="https://github.com/dayamll/Pushin-3" target="_blank" role="button">Pusheen</a>
-  </div>
 
-  <section class="content ">
+  <section class="content  col-lg-12">
     <div id="contacto">
       <h2 class="white text-center">Contacto</h2>
     </div>
   </section>
 
-  <section class="five-secction">
-    <div class="center contact">
+  <section class="five-secction  col-lg-12">
+    <!-- <div class="center contact">
       <a href="https://plus.google.com/u/0/101780200986477970421" class="side-right cont" target="_blank">
         <img src="assets/images/mail.png" class="logo" alt="">
         <span>Google</span>
@@ -210,10 +226,10 @@
         <p class="telf">
           <img src="assets/images/telf.png" alt="" class="size-email">Telefono: 936 711 844</p>
       </div>
-    </div>
+    </div> -->
   </section>
 
-  <footer class="box-footer">
+  <footer class="box-footer  col-lg-12">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <p class="white text-center">
@@ -230,6 +246,8 @@
       <div class="c-e"></div>
     </div>
   </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
@@ -238,6 +256,7 @@
     crossorigin="anonymous"></script>
   <script src="js/app.js"></script>
   <script src="js/bear.js"></script>
+  <script src="js/slide.js"></script>
 </body>
 
 </html>

@@ -7,22 +7,13 @@
   vertical-align: baseline;
 }
 
-.gallery {
-  text-align: center;
-  padding-top: 30px;
-}
-
-.padding {
-  padding-bottom: 20px;
-}
-
 .gallery li {
-  width: 400px;
-  height: 200px;
+  width: 170px;
+  height: 96px;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 10px;
   text-align: center;
-  position: relative;
+  /* position: relative; */
   margin: 5px;
   display: inline-block;
   overflow: hidden;
@@ -33,9 +24,9 @@
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 5px;
-  color: white;
-  font-weight: lighter;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 15px;
   letter-spacing: .1em;
   position: absolute;
   display: block;
@@ -47,28 +38,6 @@
   z-index: 2;
   width: 100%;
   height: 100%;
-}
-
-.gallery .name .title {
-  display: block;
-  text-transform: none;
-  font-style: italic;
-  font-size: 80%;
-  color: rgba(255, 255, 255, 0.7);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -moz-transition-delay: 0.2s;
-  -o-transition-delay: 0.2s;
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-  -moz-transition-duration: 0.9s;
-  -o-transition-duration: 0.9s;
-  -webkit-transition-duration: 0.9s;
-  transition-duration: 0.9s;
 }
 
 .gallery li:hover .name {
@@ -88,38 +57,10 @@
   transition-duration: 0.6s;
 }
 
-.gallery li:hover .title {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-}
-
-.gallery li:hover .image {
-  -moz-transform: scale(1, 1);
-  -ms-transform: scale(1, 1);
-  -webkit-transform: scale(1, 1);
-  transform: scale(1, 1);
-  background-position: top top;
-  -webkit-filter: grayscale(0.4) blur(2px);
-  filter: grayscale(0.4) blur(2px);
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -moz-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  -webkit-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-}
-
-.gallery li:hover:hover .image {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-}
-
 .gallery li .image {
   display: block;
-  width: 400px;
-  height: 190px;
+  width: 178px;
+  height: 96px;
   display: inline-block;
   text-align: center;
   -moz-transform: scale(1.09, 1.09);

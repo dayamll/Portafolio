@@ -8,17 +8,6 @@ body {
   background-color: rgb(3, 74, 100);
 }
 
-a {
-  padding-right: 550px;
-  margin: 10px;
-  font-size: 17px;
-  font-weight: 600;
-}
-
-.size-logo {
-  width: 50px;
-}
-
 .font {
   font-size: 100px;
   font-weight: 1000;
@@ -26,7 +15,7 @@ a {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: url('https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/4/42/Tumblr_static_space_aesthetic.gif/revision/latest?cb=20170312195534');
+  background-image: url('https://i0.wp.com/blog.smartthings.com/wp-content/uploads/2014/03/tumblr_n1fqbfMefH1smapx8o1_500.gif?fit=683%2C405&ssl=1');
   background-attachment: fixed;
 }
 
@@ -37,33 +26,12 @@ a {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: url('https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/4/42/Tumblr_static_space_aesthetic.gif/revision/latest?cb=20170312195534');
+  background-image: url('https://i0.wp.com/blog.smartthings.com/wp-content/uploads/2014/03/tumblr_n1fqbfMefH1smapx8o1_500.gif?fit=683%2C405&ssl=1');
   background-attachment: fixed;
 }
 
 .title-space {
   padding-top: 200px;
-}
-
-.navbar {
-  position: fixed;
-  width: 100%;
-  height: 90px;
-  background-color: rgba(255, 255, 255, 0.356);
-}
-
-.navbar-default .navbar-toggle {
-  margin: 50px;
-}
-
-.container-fluid>.navbar-header {
-  margin-left: -35px;
-  margin-right: -35px;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: black !important;
-  font-weight: 600;
 }
 
 .row {
@@ -91,84 +59,6 @@ a {
   font-size: 34px;
   font-weight: 900;
   letter-spacing: 5px;
-}
-
-.btn-secondary {
-  border: 1px solid black;
-  background-color: rgb(34, 70, 136);
-  color: white;
-}
-
-.btn-outline-primary {
-  border: 1px solid rgb(255, 255, 255);
-  color: white;
-}
-
-.btn-outline-primary:hover {
-  border: 1px solid rgb(255, 255, 255);
-  background-color: white;
-  color: black;
-}
-
-.blinking-cursor {
-  font-weight: 600;
-  font-size: 25px;
-  color: #000000;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-
-@keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #959899;
-  }
-}
-
-@-moz-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #000000;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #959899;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #959899;
-  }
-}
-
-@-o-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #959899;
-  }
 }
 
 .third-secction {
@@ -204,7 +94,7 @@ a {
 
 .white {
   color: white;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .content {
@@ -222,7 +112,7 @@ a {
 }
 
 .image-size {
-  width: 150px;
+  /* width: 100px; */
   margin-top: 50px;
   border-radius: 200px;
 }
@@ -234,14 +124,6 @@ a {
 
 .images {
   padding-top: 150px;
-}
-
-ul li {
-  list-style: none;
-}
-
-.rigth {
-  float: right;
 }
 
 /* footer */
@@ -292,7 +174,7 @@ footer {
   margin: 5px;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 300px) {
   .image-size-skills {
     width: 12%;
     margin: 10px;
@@ -300,5 +182,38 @@ footer {
 
   .image-size {
     width: 350px;
+  }
+
+  .font {
+    font-size: 60px;
+    font-weight: 900px;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .font2 {
+    font-size: 35px;
+    font-weight: 900px;
+    padding-left: 20px;    
+  }
+
+  .first-text {
+    font-size: 15px;
+    padding-left: 20px;    
+  }
+
+  .first-secction {
+    height: 90vh;
+  }
+
+  .pt-2 {
+    padding: 3%;
+    font-size: 18px;
+  }  
+
+  .textCode {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 3px;
   }
 }
