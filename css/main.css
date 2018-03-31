@@ -143,7 +143,7 @@ footer {
 }
 
 .logo {
-  width: 150px;
+  width: 90px;
 }
 
 .img-proyect {
@@ -220,4 +220,8 @@ footer {
     font-weight: 900;
     letter-spacing: 3px;
   }
+
+  /* .logo {
+    width: 100px;
+  } */
 }
