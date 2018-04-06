@@ -1,2 +1,2 @@
-$('.ui.modal')
-  .modal('show');
+$('.activating.element')
+  .popup();

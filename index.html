@@ -6,8 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel='stylesheet prefetch' href='http://oss.maxcdn.com/semantic-ui/2.1.6/semantic.min.css'>
-  <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/icon/floppy-o">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/images/logo2.png">
   <title>Dayam Alisson</title>
 </head>
 
@@ -17,13 +20,14 @@
     <a class='link item' href='#habilidades'>Habilidades</a>
     <a class='link item' href='#proyectos'>Proyectos</a>
     <a class='link item' href='#contactos'>Contactos</a>
+    <a class="btn btn-outline-primary" href="assets/docs/curriculum-org.pdf" role="button" download>Descarga CV</a>
   </div>
   <div class='ui grid'>
     <div class='tablet computer only row'>
       <div class='ui top fixed large secondary menu top-bar'>
         <div class='ui container'>
-          <a class='icon item' href='#home'>
-            <i class='apple icon'></i>
+          <a class='item' href='#home'>
+            <img src="assets/images/logo2.png" alt="">
           </a>
           <div class='right menu' id='following-nav'>
             <a class='link item scroll-to' href='#acerca'>Acerca de mí</a>
@@ -76,78 +80,49 @@
     <div class='ui center aligned text container'>
       <h2 class='ui header'>Habilidades</h2>
     </div>
-    <div class='ui three doubling stackable cards grid container'>
-      <div class='ui card'>
-        <div class='image'>
-          <img src="assets/images/img1.png" class="image-size-skills centered image" alt="">
-        </div>
-        <div class='content'>
-          <div class='text-center header'>Html5</div>
-        </div>
-      </div>
-      <div class='ui card'>
-        <div class='image'>
-          <img src="assets/images/img2.png" class="image-size-skills centered image" alt="">
-        </div>
-        <div class='content'>
-          <div class='text-center header'>CSS3</div>
-        </div>
-      </div>
-      <div class='ui card'>
-        <div class='image'>
-          <img src="assets/images/img8.png" class="image-size-skills centered image" alt="">
-        </div>
-        <div class='content'>
-          <div class='text-center header'>Semantic UI</div>
+    <div class="ui two column middle aligned very relaxed stackable grid">
+      <div class="column">
+        <div class="ui text-center">
+          <h2>Tech Skills</h2>
+          <div>
+            <i class="devicon-html5-plain-wordmark"></i>
+            <i class="devicon-css3-plain-wordmark"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-github-plain-wordmark colored"></i>
+          </div>
+          <br>
+          <div>
+            <i class="devicon-bootstrap-plain"></i>
+            <i class="devicon-jquery-plain-wordmark"></i>
+            <i class="devicon-babel-plain"></i>
+            <i class="devicon-react-original-wordmark"></i>
+          </div>
         </div>
       </div>
-      <div class='ui card'>
-        <div class='image'>
-          <img src="assets/images/img9.png" class="image-size-skills centered image" alt="">
-        </div>
-        <div class='content'>
-          <div class='text-center header'>Bulma</div>
-        </div>
+      <div class="ui vertical divider">
       </div>
-      <div class='ui card'>
-        <div class='image'>
-          <img src="assets/images/img3.jpg" class="image-size-skills centered image" alt="">
+      <div class="column">
+        <div class="ui text-center">
+          <h2>Soft Skills</h2>
+          <div>
+            <i class="fas fa-handshake"></i>
+            <i class="fas fa-people-carry"></i>
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="ui tag labels">
+            <a class="ui label">
+              Confianza
+            </a>
+            <a class="ui label">
+              Trabajo en Equipo
+            </a>
+            <a class="ui label">
+              Autodidacta
+            </a>
+          </div>
+          <br>
         </div>
-        <div class='content'>
-          <div class='text-center header'>Bootstrap</div>
-        </div>
-      </div>
-      <div class='ui card'>
-        <div class='image'>
-          <img src="assets/images/img10.png" class="image-size-skills centered image" alt="">
-        </div>
-        <div class='content'>
-          <div class='text-center header'>Babel</div>
-        </div>
-      </div>
-      <div class='ui card'>
-        <div class='image'>
-          <img src="assets/images/img7.gif" class="image-size-skills centered image" alt="">
-        </div>
-        <div class='content'>
-          <div class='text-center header'>JavaScript</div>
-        </div>
-      </div>
-      <div class='ui card'>
-        <div class='image'>
-          <img src="assets/images/img5.png" class="image-size-skills centered image" alt="">
-        </div>
-        <div class='content'>
-          <div class='text-center header'>jQuery</div>
-        </div>
-      </div>
-      <div class='ui card'>
-        <div class='image'>
-          <img src="assets/images/img6.png" class="image-size-skills centered image" alt="">
-        </div>
-        <div class='content'>
-          <div class='text-center header'>Git Hub</div>
-        </div>
+        <br>
       </div>
     </div>
   </div>
@@ -166,7 +141,7 @@
           <div class="ui labeled button" tabindex="0">
           </div>
           <div class="text-center">
-            <a class="ui basic label" href="https://github.com/carlacentenor/social-network" target="_blank">
+            <a class="ui basic label size-view" href="https://github.com/carlacentenor/social-network" target="_blank">
               <i class="heart icon"></i> Ver Repositorio
             </a>
             <a class="ui basic label" href="https://carlacentenor.github.io/social-network/" target="_blank">
@@ -188,7 +163,7 @@
               <i class="heart icon"></i> Ver Repositorio
             </a>
             <a class="ui basic label" href="https://dayamll.github.io/api-weather/public" target="_blank">
-              <i class="heart icon"></i> Ver Demo
+              <i class="eye icon"></i> Ver Demo
             </a>
           </div>
         </div>
@@ -206,7 +181,7 @@
               <i class="heart icon"></i> Ver Repositorio
             </a>
             <a class="ui basic label" href="https://wendytamara.github.io/hackaton/" target="_blank">
-              <i class="heart icon"></i> Ver Demo
+              <i class="eye icon"></i> Ver Demo
             </a>
           </div>
         </div>
@@ -216,39 +191,35 @@
         <div class='ui center aligned container'>
           <h2 class='ui header'>Contactos</h2>
         </div>
-        <div class='ui three doubling stackable grid container'>
-          <div class="ui padding">
-            <a href="https://plus.google.com/u/0/101780200986477970421" target="_blank">
-              <img src="assets/images/mail.png" class="logo" alt="">
-            </a>
-          </div>
+        <div class='ui grid'>
           <div class="ui padding">
             <a href="https://github.com/dayamll" target="_blank">
-              <img src="assets/images/git.png" class="logo" alt="">
+              <i class="fab fa-github"></i>
             </a>
           </div>
           <div class="ui padding">
-            <a href="https://www.linkedin.com/in/dayamllerena/" target="_blank">
-              <img src="assets/images/lin.png" class="logo" alt="">
-            </a>
-          </div>
-          <div class="ui padding">
-            <a href="https://www.facebook.com/dayan.llerenacastro" target="_blank">
-              <img src="assets/images/face.png" class="logo" alt="">
+            <a href="https://plus.google.com/u/0/101780200986477970421" target="_blank">
+              <i class="fab fa-linkedin"></i>
             </a>
           </div>
         </div>
       </div>
+      <div class="ui padding-text text-center">
+        <a href="mailto:dayamllerenacastro@gmail.com?Subject=Hello%20again" target="_top">correo@: dayamllerenacastro@gmail.com</a>
+      </div>
+      <div class="ui padding-text">
+        <h5 class="text-center">Telefono: 936 711 844</h5>
+      </div>
       <br>
-      <footer>
+      <div class="last-box">
         <div class="box-footer">
           <p class="white text-center"> Made it by Dayam Alisson Llerena Castro.</p>
         </div>
-      </footer>
+      </div>
       <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
       <script src='http://oss.maxcdn.com/semantic-ui/2.1.6/semantic.min.js'></script>
-      <script src="js/app.js"></script>      
+      <script src="js/app.js"></script>
       <script src="js/index.js"></script>
       <script src="js/text.js"></script>
 </body>

@@ -7,6 +7,10 @@
   width: 100%;
   opacity: 0.8;
 }
+/* 
+* {
+  border: red solid 2px;
+} */
 
 .font {
   font-size: 130px;
@@ -20,7 +24,7 @@
 }
 
 .font2 {
-  font-size: 100px;
+  font-size: 90px;
   font-weight: 1000;
   letter-spacing: 8px;
   color: transparent;
@@ -57,6 +61,50 @@
 
 .image-size-skills {
   height: 180px !important;
+}
+
+svg:not(:root).svg-inline--fa {
+  font-size: 80px;
+  margin: 30px;
+}
+
+.ui.tag.label, .ui.tag.labels .label {
+  margin-left: 3em;
+}
+
+svg:not(:root).svg-inline--fa:hover {
+  color: rgb(87, 85, 85);
+}
+
+.ui.secondary.menu .item {
+  color: rgb(194, 191, 191);
+  font-weight: 900;
+}
+
+.link item scroll-to active {
+  color: rgb(170, 166, 166);
+}
+
+/* .ui.vertical.stripe:nth-child(even) {
+  background-color: rgb(189, 182, 182) !important;
+} */
+
+.ui.vertical.stripe h2 {
+  padding-bottom: 1.5rem !important;
+}
+
+[class*=" devicon-"],
+[class^=devicon-] {
+  font-size: 80px;
+}
+
+[class*=" devicon-"],
+[class^=devicon-]:hover {
+  color: rgb(87, 85, 85);
+}
+
+a {
+  color: black;
 }
 
 .pt-2 {
@@ -96,14 +144,18 @@
   padding: 2em 0;
 }
 
-footer {
+.last-box {
   background-color: rgb(0, 0, 0);
-  width: 100%;
+  width: 2500px;
+  margin-bottom: -80px;
+  margin-left: -100px;
+  margin-right: -100px;
 }
 
 .box-footer {
   padding: 10px;
   margin-bottom: 0px !important;
+  width: 100%;
 }
 
 .proyects {
@@ -116,13 +168,20 @@ footer {
 }
 
 .padding {
-  padding-left: 160px !important;
-  padding-right: 50px !important;  
+  padding-left: 300px !important;
+  padding-right: 50px !important;
+  margin: 1rem;
+}
+
+.padding-text {
+  padding-left: 200px !important;
+  margin: 1rem;
 }
 
 .white {
   color: white;
   font-weight: 600;
+  padding-top: 20px;
 }
 
 .size-logo {
@@ -137,6 +196,20 @@ footer {
   padding-right: 0;
 }
 
+.basic {
+  width: 300px;
+}
+
+.ui.basic.label {
+  font-size: 18px;
+}
+
+.ui.card>.content>.header:not(.ui),
+.ui.cards>.card>.content>.header:not(.ui) {
+  font-size: 25px;
+  font-weight: 900;
+}
+
 @media only screen and (max-width: 500px) {
   .font {
     font-size: 80px;
@@ -148,7 +221,6 @@ footer {
     background-image: url('https://i0.wp.com/blog.smartthings.com/wp-content/uploads/2014/03/tumblr_n1fqbfMefH1smapx8o1_500.gif?fit=683%2C405&ssl=1');
     background-attachment: fixed;
   }
-
   .font2 {
     font-size: 50px;
     font-weight: 1000;
@@ -159,14 +231,34 @@ footer {
     background-image: url('https://i0.wp.com/blog.smartthings.com/wp-content/uploads/2014/03/tumblr_n1fqbfMefH1smapx8o1_500.gif?fit=683%2C405&ssl=1');
     background-attachment: fixed;
   }
-
   .titles {
     padding-left: 5px !important;
   }
-
   .first-text {
     font-size: 25px;
     font-weight: 900;
     letter-spacing: 5px;
+  }
+  .padding {
+    padding-left: 70px !important;
+    padding-right: 20px !important;
+    margin: 1rem;
+  }
+  .padding-text {
+    padding-left: 0px !important;
+    margin: 1rem;
+  }
+  .white {
+    color: white;
+    font-weight: 600;
+    padding-top: 0px !important;
+  }
+
+  .last-box {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin-bottom: -80px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

@@ -12,7 +12,7 @@ $('.masthead').visibility({
     var borderColor = 'rgba(34, 36, 38, ' + calculations.percentagePassed * 0.15 + ')';
     $('.top-bar').css({
       'background-color': bgColor,
-      'border-bottom': '1px solid ' + borderColor
+      'border-bottom': '1px solid ' + borderColor,
     });
   }
 });
