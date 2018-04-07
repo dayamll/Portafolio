@@ -168,7 +168,7 @@ a {
 }
 
 .padding {
-  padding-left: 300px !important;
+  padding-left: 260px !important;
   padding-right: 50px !important;
   margin: 1rem;
 }
@@ -197,7 +197,7 @@ a {
 }
 
 .basic {
-  width: 300px;
+  width: 250px;
 }
 
 .ui.basic.label {
@@ -240,7 +240,7 @@ a {
     letter-spacing: 5px;
   }
   .padding {
-    padding-left: 70px !important;
+    padding-left: 25px !important;
     padding-right: 20px !important;
     margin: 1rem;
   }
