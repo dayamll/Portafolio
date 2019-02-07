@@ -164,8 +164,8 @@ a {
 }
 
 .padding {
-  padding-left: 300px !important;
-  padding-right: 50px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   margin: 1rem;
 }
 
@@ -232,8 +232,8 @@ a {
     letter-spacing: 5px;
   }
   .padding {
-    padding-left: 70px !important;
-    padding-right: 20px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
     margin: 1rem;
   }
   .padding-text {
@@ -377,6 +377,11 @@ figure.snip1190.hover p {
     font-size: 40px;
     -webkit-transform: translateY(-20%) scale(0.7);
     transform: translateY(-20%) scale(0.7);
+  }
+  .padding {
+    padding-left: 220px !important;
+    padding-right: 0px !important;
+    margin: 1rem;
   }
 }
 
