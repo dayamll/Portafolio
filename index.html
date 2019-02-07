@@ -10,12 +10,23 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css'>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="assets/images/logo2.png">
   <title>Dayam Alisson</title>
 </head>
 
-<body>
+<body class="animation-wrapper">
+
+  <div>
+    <div class="particle particle-1"></div>
+    <div class="particle particle-2"></div>
+    <div class="particle particle-3"></div>
+    <div class="particle particle-4"></div>
+  </div>
+
+
   <div class='ui sidebar vertical menu'>
     <a class='link item' href='#acerca'>Acerca de mí</a>
     <a class='link item' href='#habilidades'>Habilidades</a>
@@ -35,38 +46,36 @@
             <a class='link item scroll-to' href='#habilidades'>Habilidades</a>
             <a class='link item scroll-to' href='#proyectos'>Proyectos</a>
             <a class='link item scroll-to' href='#contactos'>Contactos</a>
-            <a class='link item scroll-to' href="assets/docs/curriculum-final.pdf" role="button" download>Descarga CV</a>            
+            <a class='link item scroll-to' href="./assets/docs/dayam_llerena.pdf" role="button" download>Descarga CV</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class='ui segment masthead' id='home'>
-    <div class='ui grid'>
-      <div class='row'>
-        <div class="titles text-center">
-          <h1 class="font title-space title-mob">Dayam Alisson</h1>
-          <h2 class="font2">Llerena Castro</h2>
-          <div class="first-text">
-            $
-            <span id="first-text"></span>
-            <span class="blinking-cursor">|</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+  <figure class="snip1190 hover" id='home'>
+    <img src="assets/images/fondo.jpg" alt="sample75" />
+    <figcaption class="title">
+      <h2 class="font">Dayam Alisson
+        <span>Llerena Castro</span>
+      </h2>
+      <p class="font2">Front-End Developer</p>
+    </figcaption>
+  </figure>
+
   <div class='ui vertical stripe segment' id='acerca'>
     <div class='ui text-center aligned text container'>
       <h2 class="ui header">Acerca de mí</h2>
     </div>
-    <div class='ui four column doubling stackable grid container'>
+
+    <div class='ui four column doubling stackable grid container' style="padding-bottom: 50px;">
       <div class="text-center">
         <img class="image-size" src="assets/images/me.png" alt="First slide">
-        <h3 class="pt-2"> Front-End Developer en Laboratoria. Cuento con poco más de un año en Programación Web, utilizando HTML5, CSS3, JavaScript,
-          Node.js, Babel y Frameworks. Me considero extrovertida y creativa. Conocí la Programación a los 17 años y desde
-          entonces investigo sobre Tecnología para aprender e ir adquiriendo nuevos conocimientos. Uno de mis principales
-          objetivos es convertirme en una UI Developer y mi más grande sueño es ser
+        <h3 class="pt-2"> Front-End Developer en Laboratoria. Cuento con poco más de dos años en Diseño y Programación Web, utilizando HTML5,
+          CSS3, JavaScript, Node.js, Babel, Photoshop, AF y Frameworks. Me considero extrovertida, creativa y autodidacta.
+          Conocí la Programación a los 17 años y desde entonces investigo sobre Tecnología para aprender e ir adquiriendo
+          nuevos conocimientos. Uno de mis principales objetivos es especializarme como UI Developer y mi más grande sueño
+          es ser
           <strong> "Video Game Designer en la empresa más prestigiosa de Latinoamérica".</strong>
           </h2>
           <br>
@@ -78,62 +87,72 @@
       </div>
     </div>
   </div>
+
   <div class='ui vertical stripe segment' id='habilidades'>
     <div class='ui center aligned text container'>
       <h2 class='ui header'>Habilidades</h2>
     </div>
-    <div class="ui two column middle aligned very relaxed stackable grid">
-      <div class="column">
-        <div class="ui text-center">
-          <h2>Tech Skills</h2>
-          <div>
-            <i class="devicon-html5-plain-wordmark"></i>
-            <i class="devicon-css3-plain-wordmark"></i>
-            <i class="devicon-javascript-plain"></i>
-            <i class="devicon-github-plain-wordmark colored"></i>
-          </div>
-          <br>
-          <div>
-            <i class="devicon-bootstrap-plain"></i>
-            <i class="devicon-jquery-plain-wordmark"></i>
-            <i class="devicon-babel-plain"></i>
-            <i class="devicon-react-original-wordmark"></i>
-          </div>
-        </div>
-      </div>
-      <div class="ui vertical divider">
-      </div>
-      <div class="column">
-        <div class="ui text-center">
-          <h2>Soft Skills</h2>
-          <div>
-            <i class="fas fa-handshake"></i>
-            <i class="fas fa-people-carry"></i>
-            <i class="fas fa-book"></i>
-          </div>
-          <div class="ui tag labels">
-            <a class="ui label">
-              Confianza
-            </a>
-            <a class="ui label">
-              Trabajo en Equipo
-            </a>
-            <a class="ui label">
-              Autodidacta
-            </a>
-          </div>
-          <br>
-        </div>
-        <br>
-      </div>
+
+    <div class="social">
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/github.png" style="width: 100px; height: 100px; margin-top: 10px;" alt="">
+      </a>
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/aeffect.png" style="width: 115px; height: 115px; margin-top: 8px;" alt="">
+      </a>
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/photo.png" style="width: 105px; height: 105px; margin-top: 10px;" alt="">
+      </a>
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/google.png" style="width: 100px; height: 100px; margin-top: 10px;" alt="">
+      </a>
+      <br>
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/html.png" style="width: 115px; height: 115px; margin-top: 5px;" alt="">
+      </a>
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/css.png" style="width: 115px; height: 115px; margin-top: 5px;" alt="">
+      </a>
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/js.png" style="width: 110px; height: 110px; margin-top: 8px;" alt="">
+      </a>
+      <br>
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/boo.png" style="width: 115px; height: 115px; margin-top: 5px;" alt="">
+      </a>
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/semantic.png" style="width: 110px; height: 110px; margin-top: 8px;" alt="">
+      </a>
+      <br>
+      <a class="link facebook" target="_parent">
+        <img src="assets/images/react.png" style="width: 105px; height: 105px; margin-top: 10px;" alt="">
+      </a>
     </div>
+
   </div>
 
-  <div class='ui vertical stripe segment ' id='proyectos'>
+  <div class='ui vertical stripe segment' id='proyectos'>
     <div class='ui center aligned text container'>
       <h2 class='ui header'>Proyectos</h2>
     </div>
     <div class='ui three doubling stackable cards grid container'>
+
+      <div class='ui card'>
+        <div class='image'>
+          <img src="assets/images/fondo.jpg" class="image-size-skills centered image" alt="">
+        </div>
+        <div class='content'>
+          <div class='text-center header'>Portafolio</div>
+          <div class="ui labeled button" tabindex="0">
+          </div>
+          <div class="text-center">
+            <a class="ui basic label" style="width: 230px" href="https://dayamll.github.io/Portafolio/" target="_blank">
+              <i class="eye icon"></i> Ver Demo
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div class='ui card'>
         <div class='image'>
           <img src="assets/images/pro1.jpg" class="image-size-skills centered image" alt="">
@@ -143,15 +162,13 @@
           <div class="ui labeled button" tabindex="0">
           </div>
           <div class="text-center">
-            <a class="ui basic label size-view" href="https://github.com/carlacentenor/social-network" target="_blank">
-              <i class="heart icon"></i> Ver Repositorio
-            </a>
-            <a class="ui basic label" href="https://carlacentenor.github.io/social-network/" target="_blank">
-              <i class="heart icon"></i> Ver Demo
+            <a class="ui basic label" style="width: 230px" href="https://carlacentenor.github.io/social-network/" target="_blank">
+              <i class="eye icon"></i> Ver Demo
             </a>
           </div>
         </div>
       </div>
+
       <div class='ui card'>
         <div class='image'>
           <img src="assets/images/pro4.gif" class="image-size-skills centered image" alt="">
@@ -161,15 +178,13 @@
           <div class="ui labeled button" tabindex="0">
           </div>
           <div class="text-center">
-            <a class="ui basic label" href="https://github.com/dayamll/api-weather" target="_blank">
-              <i class="heart icon"></i> Ver Repositorio
-            </a>
-            <a class="ui basic label" href="https://dayamll.github.io/api-weather/public" target="_blank">
+            <a class="ui basic label" style="width: 230px" href="https://dayamll.github.io/api-weather/public" target="_blank">
               <i class="eye icon"></i> Ver Demo
             </a>
           </div>
         </div>
       </div>
+
       <div class='ui card'>
         <div class='image'>
           <img src="assets/images/pro3.jpg" class="image-size-skills centered image" alt="">
@@ -179,33 +194,66 @@
           <div class="ui labeled button" tabindex="0">
           </div>
           <div class="text-center">
-            <a class="ui basic label" href="https://github.com/dayamll/hackaton" target="_blank">
-              <i class="heart icon"></i> Ver Repositorio
-            </a>
-            <a class="ui basic label" href="https://wendytamara.github.io/hackaton/" target="_blank">
+            <a class="ui basic label" style="width: 230px" href="https://wendytamara.github.io/hackaton/" target="_blank">
               <i class="eye icon"></i> Ver Demo
             </a>
           </div>
         </div>
       </div>
+
+      <div class='ui card'>
+        <div class='image'>
+          <img src="assets/images/Landing_Lenovo_Optane_Agosto-29_02.png" class="image-size-skills centered image" alt="">
+        </div>
+        <div class='content'>
+          <div class='text-center header'>Lenovo Optane</div>
+          <div class="ui labeled button" tabindex="0">
+          </div>
+          <div class="text-center">
+            <a class="ui basic label" style="width: 230px" href="https://simple.ripley.com.pe/minisitios/especial/lenovo-ideapad" target="_blank">
+              <i class="eye icon"></i> Ver Demo
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class='ui card'>
+        <div class='image'>
+          <img src="assets/images/image-video_01.jpg" class="image-size-skills centered image" alt="">
+        </div>
+        <div class='content'>
+          <div class='text-center header'>Jedi - Challenges</div>
+          <div class="ui labeled button" tabindex="0">
+          </div>
+          <div class="text-center">
+            <a class="ui basic label" style="width: 230px" href="https://simple.ripley.com.pe/minisitios/especial/landing-lenovotest"
+              target="_blank">
+              <i class="eye icon"></i> Ver Demo
+            </a>
+          </div>
+        </div>
+      </div>
+
       <br>
       <div class='ui vertical segment text-center' id='contactos'>
-        <div class='ui center aligned container'>
+        <div class='ui center aligned container' style="margin-bottom: -50px">
           <h2 class='ui header'>Contactos</h2>
         </div>
-        <div class='ui grid'>
-          <div class="ui padding">
+        <div class="ui two column grid">
+          <div class="column">
             <a href="https://github.com/dayamll" target="_blank">
               <i class="fab fa-github"></i>
             </a>
           </div>
-          <div class="ui padding">
-            <a href="https://plus.google.com/u/0/101780200986477970421" target="_blank">
+          <div class="column logo-margin">
+            <a href="https://www.linkedin.com/in/dayamllerena/" target="_blank">
               <i class="fab fa-linkedin"></i>
             </a>
           </div>
         </div>
       </div>
+
+
       <div class="ui padding-text text-center">
         <a href="mailto:dayamllerenacastro@gmail.com?Subject=Hello%20again" target="_top">correo@: dayamllerenacastro@gmail.com</a>
       </div>
@@ -218,12 +266,17 @@
           <p class="white text-center"> Made it by Dayam Alisson Llerena Castro.</p>
         </div>
       </div>
+
       <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
       <script src="vendors/semantic/semantic.min.js"></script>
+      <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
+      <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
+      <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script>
       <script src="js/app.js"></script>
       <script src="js/index.js"></script>
       <script src="js/text.js"></script>
+
 </body>
 
 </html>

@@ -1,22 +1,13 @@
+
+/* Demo purposes only */
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
+
 $followingNavItems = $('#following-nav').children('.item');
 $stripeSegments = $('.stripe.segment');
-
-$('.ui.sidebar')
-  .sidebar('attach events', '.toc.item');
-
-$('.masthead').visibility({
-  once: false,
-  continuous: true,
-  onPassing: function (calculations) {
-    var bgColor = 'rgba(255, 255, 255, ' + calculations.percentagePassed + ')';
-    var borderColor = 'rgba(34, 36, 38, ' + calculations.percentagePassed * 0.15 + ')';
-    $('.top-bar').css({
-      'background-color': bgColor,
-      'border-bottom': '1px solid ' + borderColor,
-    });
-  }
-});
-
 
 $stripeSegments
   .visibility({
