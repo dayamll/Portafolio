@@ -80,17 +80,13 @@ svg:not(:root).svg-inline--fa {
   margin-left: 3em;
 }
 
-svg:not(:root).svg-inline--fa:hover {
-  color: rgb(87, 85, 85);
-}
-
 .ui.secondary.menu .item {
   color: rgb(194, 191, 191);
   font-weight: 900;
 }
 
 .link item scroll-to active {
-  color: rgb(170, 166, 166);
+  color: rgb(255, 255, 255);
 }
 
 .ui.vertical.stripe h2 {
@@ -179,6 +175,10 @@ a {
   font-weight: 600;
   padding-top: 20px;
 }
+
+.ui.secondary.menu .item{
+  color: white !important;
+}  
 
 .size-logo {
   width: 20px;
